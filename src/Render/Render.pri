@@ -3,12 +3,10 @@ DEPENDPATH += $$MERKAARTOR_SRC_DIR/Render
 
 # Header files
 HEADERS += \
-    FeaturePainter.h \
     MapRenderer.h
 
 # Source files
 SOURCES += \
-    FeaturePainter.cpp \
     MapRenderer.cpp
 
 isEmpty(MOBILE) {
